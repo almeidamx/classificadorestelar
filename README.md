@@ -14,24 +14,6 @@ MVP da sprint de Qualidade de Software, Segurança e Sistemas Inteligentes da p�
 - **Frontend:** HTML, CSS, JavaScript
 - **Testes:** PyTest
 
-## Estrutura do projeto
-
-```
-├── .github/
-│   └── workflows/
-│       └── python-app.yml     # Workflow de CI (GitHub Actions)
-├── backend/
-│   ├── app.py                 # API Flask com Swagger UI embutido
-│   ├── modelo.pkl             # Pipeline treinada (scaler + modelo)
-│   ├── test_model.py          # Testes automatizados (PyTest)
-│   └── requirements.txt       # Dependências Python com versões fixas
-├── frontend/
-│   ├── index.html             # Página principal
-│   ├── style.css              # Tema visual espacial (dark space)
-│   └── script.js              # Lógica do frontend e validação
-├── notebook.ipynb             # Notebook Colab — criação do modelo
-└── star_classification.csv    # Dataset (após upload no repositório)
-```
 
 ## Como executar
 
@@ -165,3 +147,22 @@ Práticas de segurança adotadas no projeto:
 - **Sem logging de dados de entrada:** os valores recebidos na API não são registrados em logs, protegendo a privacidade dos dados observacionais
 - **Pipeline embutida:** o `StandardScaler` está encapsulado dentro do `modelo.pkl`, eliminando risco de inconsistência de transformação entre treino e produção
 - **Dataset de domínio público:** os dados astronômicos do SDSS são públicos e não contêm informações pessoais identificáveis (PII)
+
+- ## Estrutura do projeto
+
+```
+├── .github/
+│   └── workflows/
+│       └── python-app.yml     # Workflow de CI (GitHub Actions)
+├── backend/
+│   ├── app.py                 # API Flask com Swagger UI embutido
+│   ├── modelo.pkl             # Pipeline treinada (scaler + modelo)
+│   ├── test_model.py          # Testes automatizados (PyTest)
+│   └── requirements.txt       # Dependências Python com versões fixas
+├── frontend/
+│   ├── index.html             # Página principal
+│   ├── style.css              # Tema visual espacial (dark space)
+│   └── script.js              # Lógica do frontend e validação
+├── notebook.ipynb             # Notebook Colab — criação do modelo
+└── star_classification.csv    # Dataset (após upload no repositório)
+```
