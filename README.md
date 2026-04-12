@@ -1,16 +1,5 @@
 # Classificação de Objetos Estelares — SDSS17
 
-```
-  ╔═══════════════════════════════════════════╗
-  ║                                           ║
-  ║        CLASSIFICADOR DE OBJETOS           ║
-  ║        ESTELARES  · SDSS17                ║
-  ║                                           ║
-  ║        ESTRELA |  GALÁXIA  | QUASAR       ║
-  ║                                           ║
-  ╚═══════════════════════════════════════════╝
-```
-
 MVP da sprint de Qualidade de Software, Segurança e Sistemas Inteligentes da pós-graduação em Engenharia de Software da PUC-Rio. O projeto utiliza modelos de machine learning para classificar objetos celestes em **Estrela (STAR)**, **Galáxia (GALAXY)** ou **Quasar (QSO)**, com base em dados fotométricos e espectrais do levantamento Sloan Digital Sky Survey (SDSS17).
 
 ## Links
