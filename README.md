@@ -4,7 +4,7 @@ MVP da sprint de Qualidade de Software, Segurança e Sistemas Inteligentes da p�
 
 ## Links
 
-- [Notebook no Google Colab](https://colab.research.google.com/github/almeidamx/start-classification/blob/main/notebook.ipynb)
+- [Notebook no Google Colab](https://colab.research.google.com/github/almeidamx/classificadorestelar/blob/master/MVP_Qualidade_Software_Seguranca_Sistemas_Inteligentes.ipynb)
 - [Dataset — Stellar Classification Dataset SDSS17 (Kaggle)](https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17)
 
 ## Tecnologias
